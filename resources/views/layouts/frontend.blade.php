@@ -111,7 +111,7 @@
 <nav class="navbar">
   <div class="container">
     <div class="inner">
-      <div class="logo"> <a href="index-2.html"> <img src="{{ asset('images/logo.png')}}" srcset="{{ asset('images/logo@2x.png')}}" alt="Image"> </a> </div>
+      <div class="logo"> <a href="/"> <img src="{{ asset('images/logo.png')}}" srcset="{{ asset('images/logo@2x.png')}}" alt="Image"> </a> </div>
       <!-- end logo -->
       <div class="custom-menu">
         <ul>
