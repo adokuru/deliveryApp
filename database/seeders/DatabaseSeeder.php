@@ -15,8 +15,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-       \App\Models\Tracking::factory(10)->create();
-       \App\Models\TrackingLogs::factory(10)->create();
+
        User::create ([
             'name' => 'admin',
             'email' => 'david@danoitech.com',
@@ -27,5 +26,8 @@ class DatabaseSeeder extends Seeder
             'email' => 'carl@fsgl.com',
             'password' => Hash::make('FSGL12345')
        ]);
+
+       \App\Models\Tracking::factory(10)->create();
+       \App\Models\TrackingLogs::factory(10)->create();
     }
 }
