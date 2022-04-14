@@ -149,32 +149,69 @@
     </style>
     <header class="page-header" data-background="images/slide01.jpg">
         <div class="container">
-          <h1>Tracker</h1>
-          <p>Tracking ID: {{$tracked->tracking_id}}</p>
+            <h1>Tracker</h1>
+            <p>Tracking ID: {{ $tracked->tracking_id }}</p>
         </div>
-        <!-- end container --> 
-      </header>
+        <!-- end container -->
+    </header>
     <div class="container">
         <article class="card">
             <header class="card-header"> My Orders / Tracking </header>
             <div class="card-body">
-                <h6>Order ID: {{$tracked->tracking_id}}</h6>
+                <h6>Order ID: {{ $tracked->tracking_id }}</h6>
+                <h6>Destination: {{ $tracked->to_address }}, {{ $tracked->to_city }}, {{ $tracked->to_state }}, {{ $tracked->to_country }}</h6>
                 <article class="card">
                     <div class="card-body row">
-                        <div class="col"> <strong>Estimated Delivery time:</strong> <br>{{$tracked->expected_delivery_date}} </div>
-                        <div class="col"> <strong>Shipping BY:</strong> <br> BLUEDART, | <i class="fa fa-phone"></i> +1598675986 </div>
-                        <div class="col"> <strong>Status:</strong> <br> Picked by the courier </div>
-                        <div class="col"> <strong>Tracking #:</strong> <br> BD045903594059 </div>
+                        <div class="col"> <strong>Estimated Delivery time:</strong> <br>{{ $tracked->expected_delivery_date }} </div>
+                        <div class="col"> <strong>Shipping BY:</strong> <br> {{ $tracked->title }}, | <i class="fa fa-phone"></i> {{ $tracked->from_phone }} </div>
+                        <div class="col"> <strong>Status:</strong> <br> {{ $tracked->status }} </div>
+                        <div class="col"> <strong>Tracking #:</strong> <br> {{ $tracked->tracking_id }} </div>
                     </div>
                 </article>
                 <div class="track">
-                    <div class="step active"> <span class="icon"> <i class="fas fa-check"></i> </span> <span class="text">Order confirmed</span> </div>
-                    <div class="step active"> <span class="icon"> <i class="fas fa-user"></i> </span> <span class="text"> Picked by courier</span> </div>
-                    <div class="step"> <span class="icon"> <i class="fas fa-truck"></i> </span> <span class="text"> On the way </span> </div>
-                    <div class="step"> <span class="icon"> <i class="fas fa-box"></i> </span> <span class="text">Ready for pickup</span> </div>
+                    <div class="step {{ $tracked->step >= 1 ? 'active' : '' }}"> <span class="icon"> <i class="fas {{ $tracked->step >= 1 ? 'fa-check' : 'fa-spinner' }}"></i> </span> <span class="text">Order Confirmed</span> </div>
+                    <div class="step {{ $tracked->step >= 2 ? 'active' : '' }}"> <span class="icon"> <i class="fas {{ $tracked->step >= 2 ? 'fa-check' : 'fa-spinner' }}"></i> </span> <span class="text"> Order Shipped </span> </div>
+                    <div class="step {{ $tracked->step >= 3 ? 'active' : '' }}"> <span class="icon"> <i class="fas {{ $tracked->step >= 3 ? 'fa-check' : 'fa-spinner' }}"></i> </span> <span class="text"> Order En Route </span> </div>
+                    <div class="step {{ $tracked->step >= 4 ? 'active' : '' }}"> <span class="icon"> <i class="fas {{ $tracked->step >= 4 ? 'fa-check' : 'fa-spinner' }}"></i> </span> <span class="text">Ready for pickup</span> </div>
                 </div>
-                <hr>
             </div>
         </article>
+    </div>
+    <div class="container mt-5">
+        <div class="d-flex justify-content-center row">
+            <div class="col-md-10">
+                <div class="rounded">
+                    <div class="table-responsive table-borderless">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Order #</th>
+                                    <th>Decription</th>
+                                    <th>Location</th>
+                                    <th>status</th>
+                                    <th>Time</th>
+                                    <th>Date</th>
+                                </tr>
+                            </thead>
+                            @forelse ($tracked->TrackingLogs as $item)
+                                <tbody class="table-body">
+                                    <tr class="cell-1">
+                                        <td>#{{ $tracked->tracking_id }}</td>
+                                        <td >{{$item->description}}</td>
+                                        <td>{{$item->location}}</td>
+                                        <td><span class="badge badge-info">{{$item->status}}</span></td>
+                                        <td>{{$item->time}}</td>
+                                        <td>{{$item->date}}</td>
+                                    </tr>
+                                </tbody>
+                            @empty
+
+                            @endforelse
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 @endsection

@@ -18,9 +18,9 @@ class TrackingLogsFactory extends Factory
     {
         return [
             //
-            'tracking_id' => $this->faker->unique()->randomNumber(5),
+            'tracking_id' => $this->faker->numberBetween(1, 5),
             'description' => $this->faker->sentence(),
-            'status' => $this->faker->numberBetween(1, 2),
+            'status' => $this->faker->realTextBetween(10, 20),
             'location' => $this->faker->address(),
             'time' => $this->faker->time(),
             'date' => $this->faker->date(),

@@ -12,7 +12,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
     @livewireStyles
-
+    <link href="{{ asset('ico/apple-touch-icon-144-precomposed.png') }}" rel="apple-touch-icon" sizes="144x144">
+    <link href="{{ asset('ico/apple-touch-icon-114-precomposed.png') }}" rel="apple-touch-icon" sizes="114x114">
+    <link href="{{ asset('ico/apple-touch-icon-72-precomposed.png') }}" rel="apple-touch-icon" sizes="72x72">
+    <link href="{{ asset('ico/apple-touch-icon-57-precomposed.png') }}" rel="apple-touch-icon">
+    <link href="{{ asset('ico/favicon.png') }}" rel="shortcut icon">
     <!-- Scripts -->
     <script src="{{ mix('js/app.js') }}" defer></script>
     <script src="{{ asset('js/init-alpine.js') }}"></script>

@@ -26,6 +26,7 @@ class TrackingController extends Controller
     public function create()
     {
         //
+        return view('create');
     }
 
     /**
@@ -35,8 +36,18 @@ class TrackingController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {
-        //
+    { 
+
+        $tracking = new Tracking();
+        $tracking->title = $request->name;
+        $tracking->tracking_id = $request->email;
+        $tracking->from_address = $request->phone;
+        $tracking->to_address = $request->phone;
+        $tracking->address = $request->address;
+        $tracking->city = $request->city;
+        $tracking->state = $request->state;
+        $tracking->zip = $request->zip;
+        $tracking->save();
     }
 
     /**
@@ -48,9 +59,12 @@ class TrackingController extends Controller
     public function show(Request $request)
     {
         //
-        $tracked = Tracking::where('tracking_id', $request->tracking_id)->first();
-        return view('tracker', compact('tracked'));
-        
+        $tracked = Tracking::where('tracking_id', $request->tracking_id)->with('Trackinglogs')->first();
+        if ($tracked) {
+            return view('tracker', compact('tracked'));
+        } else {
+            return redirect()->back()->with('error', 'Tracking ID not found');
+        }
     }
 
     /**
@@ -85,5 +99,18 @@ class TrackingController extends Controller
     public function destroy(Tracking $tracking)
     {
         //
+    }
+
+    public function admin_dashboard()
+    {
+        //
+        $trackings = Tracking::all();
+        return view('dashboard', compact('trackings'));
+    }
+    public function view_show($id)
+    {
+        //
+        $trackings = Tracking::find($id);
+        return view('dashboard', compact('trackings'));
     }
 }

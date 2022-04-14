@@ -34,13 +34,13 @@ class TrackingFactory extends Factory
             'to_phone' => $this->faker->phoneNumber(),
             'from_email' => $this->faker->email(),
             'to_email' => $this->faker->email(),
-            'status' => // 1 or 2, 1 for delivered, 2 for pending
-            $this->faker->numberBetween(1, 2),
+            'status' => $this->faker->realTextBetween(10, 20),
             'weight' => $this->faker->numberBetween(1, 10),
             'height' => $this->faker->numberBetween(1, 10),
-            'price' => $this->faker->numberBetween(1, 10),
+            'price' => $this->faker->numberBetween(100, 10000),
             'expected_delivery_date' => $this->faker->date(),
             'delivery_date' => $this->faker->date(),
+            'step' => $this->faker->numberBetween(1, 3),
         ];
     }
 }

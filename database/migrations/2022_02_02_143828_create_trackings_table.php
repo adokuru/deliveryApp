@@ -35,6 +35,7 @@ class CreateTrackingsTable extends Migration
             $table->string("weight")->nullable();
             $table->string("height")->nullable();
             $table->integer("price")->nullable();
+            $table->integer("step")->default(1);
             $table->string("expected_delivery_date")->nullable();
             $table->string("delivery_date")->nullable();
             $table->timestamps();
