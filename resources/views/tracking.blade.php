@@ -24,7 +24,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
-                    <figure class="video-thumb"> <img src="{{ asset('images/video-thumb.jpg') }}" alt="Image"> <a href="{{ asset('videos/video01.mp4') }}" data-fancybox>Play Button</a> </figure>
+                    <figure class="video-thumb"> <img src="{{ asset('public/images/video-thumb.jpg') }}" alt="Image"> <a href="{{ asset('public/videos/video01.mp4') }}" data-fancybox>Play Button</a> </figure>
                     <!-- end video-thumb -->
                 </div>
                 <!-- end col-5 -->

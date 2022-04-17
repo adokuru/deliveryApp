@@ -12,16 +12,16 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
     @livewireStyles
-    <link href="{{ asset('ico/apple-touch-icon-144-precomposed.png') }}" rel="apple-touch-icon" sizes="144x144">
-    <link href="{{ asset('ico/apple-touch-icon-114-precomposed.png') }}" rel="apple-touch-icon" sizes="114x114">
-    <link href="{{ asset('ico/apple-touch-icon-72-precomposed.png') }}" rel="apple-touch-icon" sizes="72x72">
-    <link href="{{ asset('ico/apple-touch-icon-57-precomposed.png') }}" rel="apple-touch-icon">
-    <link href="{{ asset('ico/favicon.png') }}" rel="shortcut icon">
+    <link href="{{ asset('public/ico/apple-touch-icon-144-precomposed.png') }}" rel="apple-touch-icon" sizes="144x144">
+    <link href="{{ asset('public/ico/apple-touch-icon-114-precomposed.png') }}" rel="apple-touch-icon" sizes="114x114">
+    <link href="{{ asset('public/ico/apple-touch-icon-72-precomposed.png') }}" rel="apple-touch-icon" sizes="72x72">
+    <link href="{{ asset('public/ico/apple-touch-icon-57-precomposed.png') }}" rel="apple-touch-icon">
+    <link href="{{ asset('public/ico/favicon.png') }}" rel="shortcut icon">
     <!-- Scripts -->
     <script src="{{ mix('js/app.js') }}" defer></script>
-    <script src="{{ asset('js/init-alpine.js') }}"></script>
+    <script src="{{ asset('public/js/init-alpine.js') }}"></script>
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/css/app.css') }}">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.0/css/jquery.dataTables.css">
 
     <style>

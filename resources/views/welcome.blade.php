@@ -5,7 +5,7 @@
         <div class="main-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="{{ asset('images/slide01.jpg') }}"></div>
+                    <div class="slide-image" data-background="{{ asset('public/images/slide01.jpg') }}"></div>
                     <!-- end slide-image -->
                     <div class="container">
                         <h1>Transport & <br>
@@ -18,7 +18,7 @@
                 </div>
                 <!-- end swiper-slide -->
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="{{ asset('images/slide02.jpg') }}"></div>
+                    <div class="slide-image" data-background="{{ asset('public/images/slide02.jpg') }}"></div>
                     <!-- end slide-image -->
                     <div class="container">
                         <h1>Quickest & Safe <br>
@@ -31,7 +31,7 @@
                 </div>
                 <!-- end swiper-slide -->
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="{{ asset('images/slide03.jpg') }}"></div>
+                    <div class="slide-image" data-background="{{ asset('public/images/slide03.jpg') }}"></div>
                     <!-- end slide-image -->
                     <div class="container">
                         <h1>Allways <br>
@@ -77,7 +77,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
-                    <figure class="video-thumb"> <img src="{{ asset('images/video-thumb.jpg') }}" alt="Image"> <a href="{{ asset('videos/video01.mp4') }}" data-fancybox>Play Button</a> </figure>
+                    <figure class="video-thumb"> <img src="{{ asset('public/images/video-thumb.jpg') }}" alt="Image"> <a href="{{ asset('public/videos/video01.mp4') }}" data-fancybox>Play Button</a> </figure>
                     <!-- end video-thumb -->
                 </div>
                 <!-- end col-5 -->
@@ -130,7 +130,7 @@
                 </div>
                 <!-- end col-7 -->
                 <div class="col-lg-5">
-                    <figure class="side-image"> <img src="{{ asset('images/side-image01.jpg') }}" alt="Image"> </figure>
+                    <figure class="side-image"> <img src="{{ asset('public/images/side-image01.jpg') }}" alt="Image"> </figure>
                     <!-- end side-image -->
                 </div>
                 <!-- end col-5 -->
@@ -146,7 +146,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="icon-box">
                         <div class="inner">
-                            <figure><img src="{{ asset('images/icon01.png') }}" alt="Image"></figure>
+                            <figure><img src="{{ asset('public/images/icon01.png') }}" alt="Image"></figure>
                             <h6>Leadership</h6>
                             <p>Experts who have extensive,
                                 hands-on experience in supply
@@ -161,7 +161,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="icon-box">
                         <div class="inner">
-                            <figure><img src="{{ asset('images/icon02.png') }}" alt="Image"></figure>
+                            <figure><img src="{{ asset('public/images/icon02.png') }}" alt="Image"></figure>
                             <h6>Technology</h6>
                             <p>innovative and varied use of
                                 technology on the road, ocean,
@@ -176,7 +176,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="icon-box">
                         <div class="inner">
-                            <figure><img src="{{ asset('images/icon03.png') }}" alt="Image"></figure>
+                            <figure><img src="{{ asset('public/images/icon03.png') }}" alt="Image"></figure>
                             <h6>Solution</h6>
                             <p>Global leaders in intermodal,
                                 less-than-truckload, supply
@@ -199,7 +199,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title">
-                        <figure><img src="{{ asset('images/section-title-shape.png') }}" alt="Image"></figure>
+                        <figure><img src="{{ asset('public/images/section-title-shape.png') }}" alt="Image"></figure>
                         <h2>Global supply chain solutions</h2>
                         <p>Dedicated specialists taking care of your products</p>
                     </div>
@@ -208,7 +208,7 @@
                 <!-- end col-12 -->
                 <div class="col-lg-3">
                     <div class="solution-box">
-                        <figure><img src="{{ asset('images/solution-image01.jpg') }}" alt="Image">
+                        <figure><img src="{{ asset('public/images/solution-image01.jpg') }}" alt="Image">
                             <figcaption> <small>Solutions</small>
                                 <h6>Food & Beverage</h6>
                                 <a href="#">Discover More</a>
@@ -220,7 +220,7 @@
                 <!-- end col-3 -->
                 <div class="col-lg-3">
                     <div class="solution-box">
-                        <figure><img src="{{ asset('images/solution-image02.jpg') }}" alt="Image">
+                        <figure><img src="{{ asset('public/images/solution-image02.jpg') }}" alt="Image">
                             <figcaption> <small>Solutions</small>
                                 <h6>Global 4PL</h6>
                                 <a href="#">Discover More</a>
@@ -232,7 +232,7 @@
                 <!-- end col-3 -->
                 <div class="col-lg-6">
                     <div class="solution-box">
-                        <figure><img src="{{ asset('images/solution-image03.jpg') }}" alt="Image">
+                        <figure><img src="{{ asset('public/images/solution-image03.jpg') }}" alt="Image">
                             <figcaption> <small>Solutions</small>
                                 <h6>Consumer Packaged Goods</h6>
                                 <a href="#">Discover More</a>
@@ -244,7 +244,7 @@
                 <!-- end col-6 -->
                 <div class="col-lg-4 offset-lg-2">
                     <div class="solution-box">
-                        <figure><img src="{{ asset('images/solution-image04.jpg') }}" alt="Image">
+                        <figure><img src="{{ asset('public/images/solution-image04.jpg') }}" alt="Image">
                             <figcaption> <small>Solutions</small>
                                 <h6>Transportation</h6>
                                 <a href="#">Discover More</a>
@@ -256,7 +256,7 @@
                 <!-- end col-4 -->
                 <div class="col-lg-4">
                     <div class="solution-box">
-                        <figure><img src="{{ asset('images/solution-image05.jpg') }}" alt="Image">
+                        <figure><img src="{{ asset('public/images/solution-image05.jpg') }}" alt="Image">
                             <figcaption> <small>Solutions</small>
                                 <h6>Retails</h6>
                                 <a href="#">Discover More</a>
@@ -300,7 +300,7 @@
                 <div class="col-lg-6">
                     <figure class="side-image full-right">
                         <div class="info-box">
-                            <figure><img src="{{ asset('images/icon-infobox.png') }}" alt="Image"></figure>
+                            <figure><img src="{{ asset('public/images/icon-infobox.png') }}" alt="Image"></figure>
                             <p>Personnel deliver bespoke
                                 solutions that are designed
                                 to increase speed to market, <strong>simplify inventory</strong> management,
@@ -308,7 +308,7 @@
                                 drive down costs.</p>
                         </div>
                         <!-- end info-box -->
-                        <img src="{{ asset('images/side-image02.jpg') }}" alt="Image">
+                        <img src="{{ asset('public/images/side-image02.jpg') }}" alt="Image">
                     </figure>
                 </div>
                 <!-- end col-6 -->
@@ -373,7 +373,7 @@
         <!-- end container -->
     </section>
     <!-- end content-section -->
-    <section class="content-section dark-overlay" data-background="{{ asset('images/section-bg-01.jpg') }}">
+    <section class="content-section dark-overlay" data-background="{{ asset('public/images/section-bg-01.jpg') }}">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -1033,22 +1033,22 @@
                     <!-- end section-title -->
                     <div class="row inner">
                         <div class="col-6">
-                            <figure class="logo-item"> <img src="{{ asset('images/logo01.jpg') }}" alt="Image"> </figure>
+                            <figure class="logo-item"> <img src="{{ asset('public/images/logo01.jpg') }}" alt="Image"> </figure>
                             <!-- end logo-item -->
                         </div>
                         <!-- end col-6 -->
                         <div class="col-6">
-                            <figure class="logo-item"> <img src="{{ asset('images/logo02.jpg') }}" alt="Image"> </figure>
+                            <figure class="logo-item"> <img src="{{ asset('public/images/logo02.jpg') }}" alt="Image"> </figure>
                             <!-- end logo-item -->
                         </div>
                         <!-- end col-6 -->
                         <div class="col-6">
-                            <figure class="logo-item"> <img src="{{ asset('images/logo03.jpg') }}" alt="Image"> </figure>
+                            <figure class="logo-item"> <img src="{{ asset('public/images/logo03.jpg') }}" alt="Image"> </figure>
                             <!-- end logo-item -->
                         </div>
                         <!-- end col-6 -->
                         <div class="col-6">
-                            <figure class="logo-item"> <img src="{{ asset('images/logo04.jpg') }}" alt="Image"> </figure>
+                            <figure class="logo-item"> <img src="{{ asset('public/images/logo04.jpg') }}" alt="Image"> </figure>
                             <!-- end logo-item -->
                         </div>
                         <!-- end col-6 -->

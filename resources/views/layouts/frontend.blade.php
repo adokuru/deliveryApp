@@ -27,34 +27,34 @@
     <meta name="twitter:image" content="preview">
 
     <!-- FAVICON FILES -->
-    <link href="{{ asset('ico/apple-touch-icon-144-precomposed.png') }}" rel="apple-touch-icon" sizes="144x144">
-    <link href="{{ asset('ico/apple-touch-icon-114-precomposed.png') }}" rel="apple-touch-icon" sizes="114x114">
-    <link href="{{ asset('ico/apple-touch-icon-72-precomposed.png') }}" rel="apple-touch-icon" sizes="72x72">
-    <link href="{{ asset('ico/apple-touch-icon-57-precomposed.png') }}" rel="apple-touch-icon">
-    <link href="{{ asset('ico/favicon.png') }}" rel="shortcut icon">
+    <link href="{{ asset('public/ico/apple-touch-icon-144-precomposed.png') }}" rel="apple-touch-icon" sizes="144x144">
+    <link href="{{ asset('public/ico/apple-touch-icon-114-precomposed.png') }}" rel="apple-touch-icon" sizes="114x114">
+    <link href="{{ asset('public/ico/apple-touch-icon-72-precomposed.png') }}" rel="apple-touch-icon" sizes="72x72">
+    <link href="{{ asset('public/ico/apple-touch-icon-57-precomposed.png') }}" rel="apple-touch-icon">
+    <link href="{{ asset('public/ico/favicon.png') }}" rel="shortcut icon">
 
     <!-- CSS FILES -->
-    <link rel="stylesheet" href="{{ asset('css/lineicons.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/swiper.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/odometer.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/fancybox.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/all.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/css/lineicons.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/css/swiper.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/css/odometer.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/css/fancybox.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/css/all.min.css') }}">
 </head>
 
 <body>
-    <div class="preloader"> <img src="{{ asset('images/preloader.png') }}" alt="Image"> </div>
+    <div class="preloader"> <img src="{{ asset('public/images/preloader.png') }}" alt="Image"> </div>
     <!-- end preloader -->
     <div class="page-transition"></div>
     <!-- end page-transition -->
     <aside class="side-widget">
         <div class="inner">
-            <div class="logo"> <a href="index-2"><img src="{{ asset('images/logo.png') }}" srcset="{{ asset('images/logo@2x.png') }}" alt="Image"></a> </div>
+            <div class="logo"> <a href="index-2"><img src="{{ asset('public/images/logo.png') }}" srcset="{{ asset('public/images/logo@2x.png') }}" alt="Image"></a> </div>
             <!-- end logo -->
             <div class="hide-mobile">
                 <p>Take the complexity out of customs Freight Solutions with customs brokerage services</p>
-                <figure class="gallery"><a href="{{ asset('images/recent-news01.jpg') }}" data-fancybox><img src="{{ asset('images/recent-news01.jpg') }}" alt="Image"></a><a href="{{ asset('images/recent-news02.jpg') }}" data-fancybox><img src="{{ asset('images/recent-news02.jpg') }}" alt="Image"></a></figure>
+                <figure class="gallery"><a href="{{ asset('public/images/recent-news01.jpg') }}" data-fancybox><img src="{{ asset('public/images/recent-news01.jpg') }}" alt="Image"></a><a href="{{ asset('public/images/recent-news02.jpg') }}" data-fancybox><img src="{{ asset('public/images/recent-news02.jpg') }}" alt="Image"></a></figure>
                 <h6 class="widget-title">CONTACT INFO</h6>
                 <address class="address">
                     <p>+1 (850) 344 0 66<br>
@@ -127,7 +127,7 @@
     <nav class="navbar">
         <div class="container">
             <div class="inner">
-                <div class="logo"> <a href="/"> <img src="{{ asset('images/logo.png') }}" srcset="{{ asset('images/logo@2x.png') }}" alt="Image"> </a> </div>
+                <div class="logo"> <a href="/"> <img src="{{ asset('public/images/logo.png') }}" srcset="{{ asset('public/images/logo@2x.png') }}" alt="Image"> </a> </div>
                 <!-- end logo -->
                 <div class="custom-menu">
                     <ul>
@@ -162,7 +162,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6">
-                    <figure class="logo"> <img src="{{ asset('images/logo.png') }}" srcset="{{ asset('images/logo@2x.png') }}" alt="Image"> </figure>
+                    <figure class="logo"> <img src="{{ asset('public/images/logo.png') }}" srcset="{{ asset('public/images/logo@2x.png') }}" alt="Image"> </figure>
                     <p>+1 (850) 344 0 66<br>
                         <a href="#">sales@fsgl.co.uk
                         </a>
@@ -203,14 +203,14 @@
     <!-- end footer -->
 
     <!-- JS FILES -->
-    <script src="{{ asset('js/jquery.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('js/fancybox.min.js') }}"></script>
-    <script src="{{ asset('js/swiper.min.js') }}"></script>
-    <script src="{{ asset('js/odometer.min.js') }}"></script>
-    <script src="{{ asset('js/imagesloaded.pkgd.min.js') }}"></script>
-    <script src="{{ asset('js/isotope.min.js') }}"></script>
-    <script src="{{ asset('js/scripts.js') }}"></script>
+    <script src="{{ asset('public/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('public/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('public/js/fancybox.min.js') }}"></script>
+    <script src="{{ asset('public/js/swiper.min.js') }}"></script>
+    <script src="{{ asset('public/js/odometer.min.js') }}"></script>
+    <script src="{{ asset('public/js/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ asset('public/js/isotope.min.js') }}"></script>
+    <script src="{{ asset('public/js/scripts.js') }}"></script>
     <script>
         $(document).ready(AppLoaded)
 
