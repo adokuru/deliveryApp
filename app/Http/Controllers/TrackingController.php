@@ -40,14 +40,21 @@ class TrackingController extends Controller
 
         $tracking = new Tracking();
         $tracking->title = $request->name;
-        $tracking->tracking_id = $request->email;
-        $tracking->from_address = $request->phone;
-        $tracking->to_address = $request->phone;
-        $tracking->address = $request->address;
-        $tracking->city = $request->city;
-        $tracking->state = $request->state;
-        $tracking->zip = $request->zip;
+        $tracking->tracking_id = $request->tracking_id;
+        $tracking->from_phone = $request->from_phone;
+        $tracking->to_phone = $request->to_phone;
+        $tracking->to_address = $request->to_address;
+        $tracking->from_address = $request->from_address;
+        $tracking->to_city = $request->Destination_city;
+        $tracking->to_state = $request->Destination_state;
+        $tracking->to_country = $request->destination_country;
+        $tracking->step = $request->step;
+        $tracking->status = $request->status;
+        $tracking->expected_delivery_date = $request->e_Delivery;
+        $tracking->delivery_date = $request->e_Delivery;
         $tracking->save();
+
+        return redirect()->route('dashboard');
     }
 
     /**
@@ -73,9 +80,11 @@ class TrackingController extends Controller
      * @param  \App\Models\Tracking  $tracking
      * @return \Illuminate\Http\Response
      */
-    public function edit(Tracking $tracking)
+    public function edit($id)
     {
-        //
+
+        $tracking = Tracking::where('id', $id)->with('Trackinglogs')->first();
+        return view('edit', compact('tracking'));
     }
 
     /**
@@ -85,9 +94,25 @@ class TrackingController extends Controller
      * @param  \App\Models\Tracking  $tracking
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Tracking $tracking)
+    public function update(Request $request)
     {
-        //
+        $tracking = Tracking::where('id', $request->id)->first();
+        $tracking->title = $request->name;
+        $tracking->tracking_id = $request->tracking_id;
+        $tracking->from_phone = $request->from_phone;
+        $tracking->to_phone = $request->to_phone;
+        $tracking->to_address = $request->to_address;
+        $tracking->from_address = $request->from_address;
+        $tracking->to_city = $request->Destination_city;
+        $tracking->to_state = $request->Destination_state;
+        $tracking->to_country = $request->destination_country;
+        $tracking->step = $request->step;
+        $tracking->status = $request->status;
+        $tracking->expected_delivery_date = $request->e_Delivery;
+        $tracking->delivery_date = $request->e_Delivery;
+        $tracking->save();
+
+        return redirect()->route('dashboard');
     }
 
     /**
@@ -96,9 +121,10 @@ class TrackingController extends Controller
      * @param  \App\Models\Tracking  $tracking
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Tracking $tracking)
+    public function delete($id)
     {
-        //
+        $tracking = Tracking::where('id', $id)->delete();
+        return redirect()->route('dashboard');
     }
 
     public function admin_dashboard()

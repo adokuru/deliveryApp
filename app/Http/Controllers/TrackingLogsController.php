@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Tracking;
 use App\Models\TrackingLogs;
 use Illuminate\Http\Request;
 
@@ -14,8 +15,9 @@ class TrackingLogsController extends Controller
      */
     public function index()
     {
-        //
-    }
+        $trackingLogs = TrackingLogs::all();
+        return view('trackingLogs.index', compact('trackingLogs'));
+    }   
 
     /**
      * Show the form for creating a new resource.
@@ -24,7 +26,8 @@ class TrackingLogsController extends Controller
      */
     public function create()
     {
-        //
+        $tracking = Tracking::all();
+        return view('trackingLogs.create', compact('tracking'));
     }
 
     /**
@@ -35,7 +38,27 @@ class TrackingLogsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'tracking_id' => 'required',
+            'description' => 'required',
+            'date' => 'required',
+            'time' => 'required',
+            'status' => 'required',
+            'location' => 'required',
+        ]);
+
+        $trackingLogs = new TrackingLogs([
+            'tracking_id' => $request->get('tracking_id'),
+            'description' => $request->get('description'),
+            'date' => $request->get('date'),
+            'time' => $request->get('time'),
+            'status' => $request->get('status'),
+            'location' => $request->get('location'),
+        ]);
+
+        $trackingLogs->save();
+
+        return redirect('/trackinglogs')->with('success', 'Tracking Logs has been added');
     }
 
     /**
