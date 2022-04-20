@@ -65,10 +65,9 @@
             <div class="card">
               <div class="card-header" role="tab" id="headingTwo"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Support each other and work together</a> </div>
               <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
-                <div class="card-body"> We are committed to the long-term, profitable 
-                  future of our business and aim to achieve sustained 
-                  growth that provides enhanced value to customers 
-                  and industry partners and opportunities</div>
+                <div class="card-body"> With the help of its experienced staff and business partners, 
+                    FDHSL Shipping understands its clients’ needs and
+                    strives to exceed their expectations.</div>
                 <!-- end card-body --> 
               </div>
               <!-- end collapse --> 
@@ -77,10 +76,9 @@
             <div class="card">
               <div class="card-header" role="tab" id="headingThree"> <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Make long-term business decisions</a> </div>
               <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
-                <div class="card-body">We are committed to the long-term, profitable 
-                  future of our business and aim to achieve sustained 
-                  growth that provides enhanced value to customers 
-                  and industry partners and opportunities</div>
+                <div class="card-body">We commit to the Safety of our Personnel and the Environment. 
+                    We will regard our personnel as our greatest assets and will ensure 
+                    their long term well-being and fair treatment.</div>
                 <!-- end card-body --> 
               </div>
               <!-- end collapse --> 
@@ -89,26 +87,15 @@
             <div class="card">
               <div class="card-header" role="tab" id="headingFour"> <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> Always seek to improve</a> </div>
               <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
-                <div class="card-body">We are committed to the long-term, profitable 
-                  future of our business and aim to achieve sustained 
-                  growth that provides enhanced value to customers 
-                  and industry partners and opportunities </div>
+                <div class="card-body">FDHSL Shipping aims to be a preferred service provider for Customers with global sea transportation requirements. 
+                    We will exhibit the highest levels of honesty, accountability, transparency, 
+                    and responsibility in how we do business. </div>
                 <!-- end card-body --> 
               </div>
               <!-- end collapse --> 
             </div>
             <!-- end card -->
-            <div class="card">
-              <div class="card-header" role="tab" id="headingFive"> <a class="collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive"> Member of the community</a> </div>
-              <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
-                <div class="card-body">We are committed to the long-term, profitable 
-                  future of our business and aim to achieve sustained 
-                  growth that provides enhanced value to customers 
-                  and industry partners and opportunities </div>
-                <!-- end card-body --> 
-              </div>
-              <!-- end collapse --> 
-            </div>
+           
             <!-- end card --> 
           </div>
           <!-- end accordion --> 
@@ -212,7 +199,7 @@
                     article for more information. </p>
                 </div>
                 <!-- end description --> 
-                <small class="date">11-23-2016</small> </div>
+                <small class="date">03-14-2017</small> </div>
               <!-- end history-box --> 
             </li>
             <li>
@@ -224,7 +211,7 @@
                     meaning Atlas Logistics </p>
                 </div>
                 <!-- end description --> 
-                <small class="date">11-23-2016</small> </div>
+                <small class="date">08-22-2018</small> </div>
               <!-- end history-box --> 
             </li>
             <li>
@@ -239,7 +226,7 @@
                     warehousing. </p>
                 </div>
                 <!-- end description --> 
-                <small class="date">11-23-2016</small> </div>
+                <small class="date">11-3-2018</small> </div>
               <!-- end history-box --> 
             </li>
             <li>
@@ -252,7 +239,7 @@
                     freight forwarders, </p>
                 </div>
                 <!-- end description --> 
-                <small class="date">11-23-2016</small> </div>
+                <small class="date">11-2-2019</small> </div>
               <!-- end history-box --> 
             </li>
             <li>
@@ -264,7 +251,7 @@
                     associated through share ownership </p>
                 </div>
                 <!-- end description --> 
-                <small class="date">11-23-2016</small> </div>
+                <small class="date">10-21-2020</small> </div>
               <!-- end history-box --> 
             </li>
           </ul>
@@ -290,7 +277,7 @@
         <div class="tab-inner">
           <figure><img src="images/tab-image01.jpg" alt="Image"></figure>
           <div class="content">
-            <h3>Postal</h3>
+            <h3>Retail</h3>
             <p>The retail industry is not only shaped by the quality 
               of services and goods, but also by economic trends 
               that are beyond an organization's control. In order to 
@@ -309,15 +296,11 @@
         <div class="tab-inner">
           <figure><img src="images/tab-image02.jpg" alt="Image"></figure>
           <div class="content">
-            <h3>Retail</h3>
-            <p>The retail industry is not only shaped by the quality 
-              of services and goods, but also by economic trends 
-              that are beyond an organization's control. In order to 
-              maximize shareholder value, retailers constantly 
-              endeavor to optimize their service and the flow of 
-              goods from the supply chain to the store. </p>
-            <p> Such dynamic optimization cannot be realized 
-              without proactive handling of accurate data.</p>
+            <h3>Postal</h3>
+            <p>Assured and speedy delivery of goods is possible with the help of speed post service. 
+            Addressee receives the parcels at his doorstep. 
+            He doesn't have to travel too far in search of his parcels.</p>
+            <p> Such a convenient mode of transport can be used when quantity is small and volume is low.</p>
           </div>
           <!-- end content --> 
         </div>
@@ -329,14 +312,10 @@
           <figure><img src="images/tab-image03.jpg" alt="Image"></figure>
           <div class="content">
             <h3>Logistics</h3>
-            <p>The retail industry is not only shaped by the quality 
-              of services and goods, but also by economic trends 
-              that are beyond an organization's control. In order to 
-              maximize shareholder value, retailers constantly 
-              endeavor to optimize their service and the flow of 
-              goods from the supply chain to the store. </p>
-            <p> Such dynamic optimization cannot be realized 
-              without proactive handling of accurate data.</p>
+            <p>In business, success in logistics translates to increased efficiencies,
+             lower costs, higher production rates, better inventory control, 
+             smarter use of warehouse space, increased customer and supplier satisfaction,
+             and an improved customer experience.</p>
           </div>
           <!-- end content --> 
         </div>
@@ -348,14 +327,10 @@
           <figure><img src="images/tab-image04.jpg" alt="Image"></figure>
           <div class="content">
             <h3>Ticketing</h3>
-            <p>The retail industry is not only shaped by the quality 
-              of services and goods, but also by economic trends 
-              that are beyond an organization's control. In order to 
-              maximize shareholder value, retailers constantly 
-              endeavor to optimize their service and the flow of 
-              goods from the supply chain to the store. </p>
-            <p> Such dynamic optimization cannot be realized 
-              without proactive handling of accurate data.</p>
+            <p>One of the most obvious advantages is the ability to organize and catalog all incoming support queries. 
+            This is especially critical for businesses having to deal with high volumes of requests. 
+            Not only does it enable agents to easily manage support cases; 
+            but it also makes it far less likely that some customer requests will go unanswered/unresolved. </p>
           </div>
           <!-- end content --> 
         </div>
@@ -367,39 +342,20 @@
           <figure><img src="images/tab-image05.jpg" alt="Image"></figure>
           <div class="content">
             <h3>Industrial</h3>
-            <p>The retail industry is not only shaped by the quality 
-              of services and goods, but also by economic trends 
-              that are beyond an organization's control. In order to 
-              maximize shareholder value, retailers constantly 
-              endeavor to optimize their service and the flow of 
-              goods from the supply chain to the store. </p>
-            <p> Such dynamic optimization cannot be realized 
-              without proactive handling of accurate data.</p>
+            <p> As productivity is optimized, more products are made, and therefore, 
+                the surplus results in cheaper prices. 
+                Some may argue that this advantage is the most significant one as it affects economic growth immensely. 
+                Cheap goods are very convenient for consumers,  
+                and more ordinary people can avail them. </p>
+
           </div>
           <!-- end content --> 
         </div>
         <!-- end tab-inner --> 
       </div>
       <!-- end tab05 -->
-      <div id="tab06" class="tab-item">
-        <div class="tab-inner">
-          <figure><img src="images/tab-image06.jpg" alt="Image"></figure>
-          <div class="content">
-            <h3>Other</h3>
-            <p>The retail industry is not only shaped by the quality 
-              of services and goods, but also by economic trends 
-              that are beyond an organization's control. In order to 
-              maximize shareholder value, retailers constantly 
-              endeavor to optimize their service and the flow of 
-              goods from the supply chain to the store. </p>
-            <p> Such dynamic optimization cannot be realized 
-              without proactive handling of accurate data.</p>
-          </div>
-          <!-- end content --> 
-        </div>
-        <!-- end tab-inner --> 
-      </div>
-      <!-- end tab06 --> 
+      
+      
       
     </div>
     <!-- end tab-content --> 
@@ -422,10 +378,9 @@
             <figure> <img src="images/team-member01.jpg" alt="Image"> </figure>
             <h6>ALEXANDER RICHIEZ</h6>
             <small>Chief Operations Officer</small>
-            <p>At vero eos et accusamus et 
-              iusto odio dignissimos ducimus 
-              qui blanditiis praesentium</p>
-                  </div>
+            <p>Look at your customers needs every few months and adjust the design of your shipping 
+               and logistics system to work best based on that alignment.</p>
+                </div>
               <!-- end inner -->
           </div>
           <!-- end team-member --> 
@@ -437,9 +392,8 @@
             <figure> <img src="images/team-member02.jpg" alt="Image"> </figure>
             <h6>RICHARD HILL</h6>
             <small>Head of Administration</small>
-            <p>At vero eos et accusamus et 
-              iusto odio dignissimos ducimus 
-              qui blanditiis praesentium</p>
+            <p>You should consider using automated systems for printing, labeling and sealing or taping. 
+              The idea is to eliminate steps or touches in your various fulfillment processes.</p>
                   </div>
               <!-- end inner -->
           </div>
@@ -452,10 +406,9 @@
             <figure> <img src="images/team-member03.jpg" alt="Image"> </figure>
             <h6>DYLAN TAYLOR</h6>
             <small>Financial Manager</small>
-            <p>At vero eos et accusamus et 
-              iusto odio dignissimos ducimus 
-              qui blanditiis praesentium</p>
-                  </div>
+            <p>For companies to succeed in shipping products, they must create a pricing strategy. 
+               There are several options to consider.</p>
+                </div>
               <!-- end inner -->
           </div>
           <!-- end team-member --> 
@@ -474,11 +427,8 @@
       <div class="row">
         <div class="col-md-6">
           <div class="testimonial">
-            <p>As a first time importer from the Far 
-              East, the process can be quite daunting. 
-              John Good has provided exceptional 
-              service and support right through 
-              the process.</p>
+            <p>Their staff is responsible and filled with experts. 
+                They handle the customer with care and support.</p>
             <h6>Steve Macholnad </h6>
             <small>Manager Smart Move LTD</small> </div>
           <!-- end testimonial --> 
@@ -491,8 +441,8 @@
               John Good has provided exceptional 
               service and support right through 
               the process.</p>
-            <h6>Steve Macholnad </h6>
-            <small>Manager Smart Move LTD</small> </div>
+            <h6>Joshua Olenik </h6>
+            <small>Sales Team Acrostishe</small> </div>
           <!-- end testimonial --> 
         </div>
         <!-- end col-6 --> 

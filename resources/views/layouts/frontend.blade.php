@@ -74,9 +74,9 @@
             <!-- end hide-mobile -->
             <div class="show-mobile">
                 <div class="custom-menu">
-                    <ul>
+                    {{-- <ul>
                         <li><a href="#">En</a></li>
-                    </ul>
+                    </ul> --}}
                 </div>
                 <!-- end custom-menu -->
                 <div class="site-menu">
@@ -91,7 +91,7 @@
                 <!-- end site-menu -->
             </div>
             <!-- end show-mobile -->
-            <small>© 2020 FSGL | Logicstic Shipping Company</small>
+            <small>© 2020 FDHSL | Logicstic Shipping Company</small>
         </div>
         <!-- end inner -->
     </aside>
@@ -172,12 +172,12 @@
                 </div>
                 <!-- end col-4 -->
                 <div class="col-lg-4 col-md-6">
-                    <h6 class="widget-title">Quick Links</h6>
+                    {{-- <h6 class="widget-title">Quick Links</h6>
                     <ul class="footer-menu">
                         <li><a href="#">Air Freight</a></li>
                         <li><a href="#">Sea Freight</a></li>
                         <li><a href="#">Ground Cargo</a></li>
-                        <li><a href="#">Packaging Options</a></li>
+                        <li><a href="#">Packaging Options</a></li> --}}
                         <li><a href="#">Track Your Shipment</a></li>
                     </ul>
                 </div>
@@ -191,7 +191,7 @@
                 </div>
                 <!-- end col-4 -->
                 <div class="col-12">
-                    <div class="footer-bottom"> <span>© 2020 FSGL | Logicstic Shipping Company</span> </div>
+                    <div class="footer-bottom"> <span>© 2022 FDHSL | Logicstic Shipping Company</span> </div>
                     <!-- end footer-bottom -->
                 </div>
                 <!-- end col-12 -->
