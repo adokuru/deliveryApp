@@ -232,8 +232,8 @@
             <li>
               <div class="history-box">
                 <div class="description">
-                  <h6>2012 QESCO UK LTD</h6>
-                  <p>In June 2012  Qesco UK Ltd became 
+                  <h6>2012 FDHSL UK LTD</h6>
+                  <p>In June 2012  FDHSL UK Ltd became 
                     members of the WCA, the world’s largest and 
                     most powerful network of independent 
                     freight forwarders, </p>
@@ -271,7 +271,6 @@
         <li><a href="#tab03">Logistics</a></li>
         <li><a href="#tab04">Ticketing</a></li>
         <li><a href="#tab05">Industrial</a></li>
-        <li><a href="#tab06">Other</a></li>
       </ul>
       <div id="tab01" class="tab-item active-item">
         <div class="tab-inner">
@@ -347,15 +346,12 @@
                 Some may argue that this advantage is the most significant one as it affects economic growth immensely. 
                 Cheap goods are very convenient for consumers,  
                 and more ordinary people can avail them. </p>
-
           </div>
           <!-- end content --> 
         </div>
         <!-- end tab-inner --> 
       </div>
       <!-- end tab05 -->
-      
-      
       
     </div>
     <!-- end tab-content --> 

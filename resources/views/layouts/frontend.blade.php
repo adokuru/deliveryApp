@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#fed300" />
-    <title>FSGL | Logicstic Shipping Company</title>
+    <title>FDHSL | Logicstic Shipping Company</title>
     <meta name="author" content="Themezinho">
     <meta name="description" content="For all kind of delivery and shipping company website">
     <meta name="keywords" content="logistic, shipping, cargo, delivery, transportation, truck, service, solutions, importing, exporting, trade, product, move, calculate, cost, ecommerce">
@@ -58,7 +58,7 @@
                 <h6 class="widget-title">CONTACT INFO</h6>
                 <address class="address">
                     <p>+1 (850) 344 0 66<br>
-                        <a href="#">sales@fsgl.co.uk
+                        <a href="#">sales@fdhsl.co.uk
                         </a>
                     </p>
                 </address>
@@ -100,7 +100,7 @@
         <div class="container">
             <div class="phone">Call Us Now: <a href="#"> +1 (850) 344 0 66 </a></div>
             <!-- end phone -->
-            <div class="email"> Email: <a href="#">sales@fsgl.co.uk</a> </div>
+            <div class="email"> Email: <a href="#">sales@fdhsl.co.uk</a> </div>
             <!-- end email -->
             <div class="social-media"> <span>Follow us</span>
                 <ul>
@@ -164,23 +164,23 @@
                 <div class="col-lg-4 col-md-6">
                     <figure class="logo"> <img src="{{ asset('public/images/logo.png') }}" srcset="{{ asset('public/images/logo@2x.png') }}" alt="Image"> </figure>
                     <p>+1 (850) 344 0 66<br>
-                        <a href="#">sales@fsgl.co.uk
+                        <a href="#">sales@fdhsl.co.uk
                         </a>
                     </p>
                     <p>2075 Brandon Trail Alpharetta, <br>
                         London - UK</p>
+                    <li><a href="#">Track Your Shipment</a></li>
                 </div>
                 <!-- end col-4 -->
-                <div class="col-lg-4 col-md-6">
+                {{-- <div class="col-lg-4 col-md-6"> --}}
                     {{-- <h6 class="widget-title">Quick Links</h6>
                     <ul class="footer-menu">
                         <li><a href="#">Air Freight</a></li>
                         <li><a href="#">Sea Freight</a></li>
                         <li><a href="#">Ground Cargo</a></li>
                         <li><a href="#">Packaging Options</a></li> --}}
-                        <li><a href="#">Track Your Shipment</a></li>
-                    </ul>
-                </div>
+                    {{-- </ul> --}}
+                {{-- </div> --}}
                 <!-- end col-4 -->
                 <div class="col-lg-4">
                     <h6 class="widget-title">Subscribe Newsletter</h6>
