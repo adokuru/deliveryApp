@@ -124,7 +124,7 @@
                             based in the Midlands, United Kingdom. We specialise in providing
                             supply-chain warehousing and transport services throughout the
                             UK, Ireland and Continental Europe.</p>
-                        <a href="#" class="custom-button">Discover All Solutions</a>
+                        <a href="/about" class="custom-button">Discover All Solutions</a>
                     </div>
                     <!-- end side-content -->
                 </div>
@@ -979,11 +979,8 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="testimonial">
-                                    <p>As a first time importer from the Far
-                                        East, the process can be quite daunting.
-                                        John Good has provided exceptional
-                                        service and support right through
-                                        the process.</p>
+                                    <p>Their staff is responsible and filled with experts. 
+                                    They handle the customer with care and support.</p>
                                     <h6>Steve Macholnad </h6>
                                     <small>Manager Smart Move LTD</small>
                                 </div>
@@ -1005,11 +1002,9 @@
                             <!-- end swiper-slide -->
                             <div class="swiper-slide">
                                 <div class="testimonial">
-                                    <p>As a first time importer from the Far
-                                        East, the process can be quite daunting.
-                                        John Good has provided exceptional
-                                        service and support right through
-                                        the process.</p>
+                                    <p>They ensured an on-time delivery and always had proper communication with our team.
+                                       The sheer level and size of the business that they do are impressive 
+                                    </p>
                                     <h6>Jack Abraham</h6>
                                     <small>Director of Envato LLC</small>
                                 </div>
